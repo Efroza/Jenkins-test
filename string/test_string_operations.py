@@ -18,6 +18,7 @@ class TestStringOperations(unittest.TestCase):
         self.assertFalse(is_palindrome("Able was I, ere I saw Elba"))
         self.assertFalse(is_palindrome("hello"))
         self.assertFalse(is_palindrome("Jenkins"))
+        self.assertFalse(is_palindrome("Python"))
 
 if __name__ == "__main__":
     unittest.main()
